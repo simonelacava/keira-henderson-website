@@ -1,0 +1,17 @@
+{
+  "name": "keira-henderson-site-tools",
+  "private": true,
+  "type": "module",
+  "description": "One-off asset generation and visual checks. Not needed to serve the site.",
+  "scripts": {
+    "assets": "node build-assets.mjs",
+    "shots": "node screenshots.mjs"
+  },
+  "devDependencies": {
+    "opentype.js": "^2.0.0",
+    "pixelmatch": "^8.0.0",
+    "pngjs": "^7.0.0",
+    "puppeteer-core": "^25.12.0",
+    "sharp": "^0.35.5"
+  }
+}

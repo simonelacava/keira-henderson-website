@@ -1,0 +1,11 @@
+// Cloudflare Workers static site. Every push to main deploys via Workers Builds.
+{
+  "name": "keira-henderson-website",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public"
+  },
+  "routes": [
+    { "pattern": "keirahhenderson.com", "custom_domain": true }
+  ]
+}
